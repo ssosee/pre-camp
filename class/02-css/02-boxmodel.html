@@ -3,32 +3,46 @@
 <head>
     <title>Box Model</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         div {
             width: 80px;
             height: 80px;
             border: 1px solid red;
             padding: 10px;
         }
+        
         #contentBox {
             /* content 고정, border 변함 */
-            box-sizing: content-box;
+            /* box-sizing: content-box; */
         }
 
         #borderBox {
             /* content 변함, border 고정 */
-            box-sizing: border-box;
+            /* box-sizing: border-box; */
+        }
+
+        .parentBox {
+            width: 500px;
+            height: 500px;
+            border: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
         }
     </style>
 </head>
 <body>
-    <div id="contentBox">content 고정</div>
-    <div style="position: relative;">고정카이</div>
-    <div>박스2</div>
-    <div>박스2</div>
-    <div>박스2</div>
-    <div>박스2</div>
-    <div>박스2</div>
-    <div>박스2</div>
-    <div id="borderBox">border 고정</div>
+    <!-- <div id="contentBox">content 고정</div>
+    <div>박스</div>
+    <div id="borderBox">border 고정</div> -->
+    <div class="parentBox">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 </body>
 </html>

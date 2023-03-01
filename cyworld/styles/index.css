@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.background {
+    width: 1024px;
+    height: 600px;
+    background-image: url('../images/background.png');
+    padding: 20px 0px 0px 20px;
+}
+
+.outerbox {
+    width: 808px;
+    height: 544px;
+    background-image: url('../images/outerbox.png');
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 0px 0px 32px;
+}
+
+.wrapper__left {
+    width: 208px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__left__header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.today {
+    font-size: 11px;
+}
+
+.wrapper__left__body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.left__body__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left__body__header__gray {
+    width: 148px;
+    height: 133px;
+    background-color: gray;
+}
+
+.left__body__header__line {
+    border-top: 1px dotted black;
+    margin: 15px 0px 8px 0px;
+}
+
+.left__body__profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left__body__profile__detail {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin: 5px 0px 0px 0px;
+}
+
+.left__body__body {
+
+}
+
+.left__body__body__detail {
+
+}
+
+.left__body__footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left__body__footer_detail {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.wrapper__right {
+    width: 524px;
+    height: 472px;
+}
+
+.wrapper__right__header {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wrapper__right__header__title {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #55B2D4;
+    padding-left: 50px;
+}
+
+.wrapper__right__header__private {
+    display: flex;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 21px;
+    color: #55B2D4;
+    padding-left: 25px;
+}
+
+.wrapper__right__body {
+
+}
+
+.right__body__body {
+    
+}
+
+.right__body__header {
+    
+}

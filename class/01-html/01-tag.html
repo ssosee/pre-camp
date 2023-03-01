@@ -1,0 +1,32 @@
+<!-- 최신 버전의 html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>홈화면</title>
+    <link href="../02-css/02-signup.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <input type="text" placeholder="이메일을 입력해주세요." style="border: 1px solid red;"><br><br>
+    <input type="text" placeholder="이름을 입력해주세요."><br><br>
+    <input class="pw" type="password" placeholder="비밀번호 입력해주세요."><br><br>
+    <input class="pw" type="password" placeholder="비밀번호를 다시 입력해주세요."><br><br>
+    <br><br>
+    <select>
+        <!-- 첫 번째 옵션은 비활성화 및 첫 호출시 선택되어 있음 -->
+        <option disabled="true" selected="true">지역을 선택해주세요.</option>
+        <option>서울</option>
+        <option>경기</option>
+        <option>인천</option>
+    </select>
+    <br><br>
+    <input type="radio" name="gender"> 여성
+    <input type="radio" name="gender"> 남성
+    <br><br>
+    <h3>개인정보 수집 및 활용</h3>
+    <input type="radio" name="condition"> 동의
+    <input type="radio" name="condition"> 비동의
+    <hr>
+    <button type="submit">가입하기</button>
+</body>
+</html>
